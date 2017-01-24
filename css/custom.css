@@ -27,3 +27,7 @@ countdown timer section
 .countdown-section:last-child {
   margin-right: 0px;
 }
+
+.header-icon {
+	font-size: 70px
+}

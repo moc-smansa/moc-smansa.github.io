@@ -171,7 +171,7 @@ nav a:focus {
 /*--banner end here--*/
 /*--about start here--*/
 .about-w3l {
-    padding: 5em 0em;
+    padding: 3em 0em;
 }
 .about-top-w3l {
     text-align: center;
@@ -229,7 +229,7 @@ nav a:focus {
 /*--about end here--*/
 /*--team start here--*/
 .team {
-    padding: 0em 0em 5em 0em;
+    padding: 0em 0em 0em 0em;
 }
 .team-bottom {
     margin-top: 4em;
@@ -370,7 +370,7 @@ nav a:focus {
 /*--design end here--*/
 /*--services start here--*/
 .services-agile {
-    padding: 5em 0em;
+    padding: 4em 0em;
 }
 .service-top-agile {
     text-align: center;
@@ -379,20 +379,30 @@ nav a:focus {
 .service-top-agile h3 {
     font-size: 3em;
     color: #2668B5;
-    margin-bottom: 0.2em;
     font-family: 'Share-Regular';
 }
 .service-top-agile p {
     font-size: 1.05em;
     color:#716E6E;
+    text-align: center;
     margin: 0 auto;
     width: 50%;
     line-height: 1.8em;
 }
 
-.service-top-agile ul{
+.service-bottom-agile p {
+    font-size: 1.1em;
     color:#716E6E;
-    margin: 10px auto;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    line-height: 1.8em;
+}
+
+.service-bottom-agile ul{
+    color:#716E6E;
+    font-size: 1.1em;
+    margin: 30px auto;
     width: 50%;
     text-align: left;
 
@@ -401,6 +411,7 @@ nav a:focus {
 .service-top-agile li{
     margin: 5px auto;
 }
+
 
 .ser-icon span {
     display: inline-block;
@@ -1009,7 +1020,7 @@ ul#slider p {
 /*--happy end here--*/
 /*--get in touch--*/
 .get-touch {
-    padding: 5em 0em;
+    padding: 4em 0em;
 }
 .get-touch-top {
     text-align: center;
@@ -1562,7 +1573,7 @@ ul.res li a:hover {
     padding-top: 8em;
 }
 .about-w3l {
-    padding: 3em 0em;
+    padding: 4em 0em;
 }
 .about-top-w3l {
     padding: 0em 0em 3em 0em;
@@ -1580,14 +1591,14 @@ ul.res li a:hover {
     min-height: 220px;
 }
 .team {
-    padding: 0em 0em 3em 0em;
+    padding: 0em 0em 0em 0em;
 }
 .design1-right {
     padding: 3em 0em 0em 4em;
     min-height: 250px;
 }
 .services-agile {
-    padding: 3em 0em;
+    padding: 0 auto;
 }
 .service-top-agile h3 {
     font-size: 2.5em;
@@ -1709,11 +1720,14 @@ span.menu {
 .team-gris {
     float: none;
     width: 80%;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 50px 0px 0px 10px;
 }
 .team-member {
     min-height: 245px;
+    max-width: 50px
+
 }
 .img-top {
     float: left;
@@ -2071,7 +2085,10 @@ span.menu img {
     font-size: 0.7em;
 }
 .team-img img {
-    border: 5px solid #D0CFCF;
+    display: block;
+    max-width:80%;
+    width: auto;
+    height: auto;
 }
 .team-text h4 {
     font-size: 0.85em;
