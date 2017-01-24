@@ -6,7 +6,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 h4, h5, h6,
 h1, h2, h3 {margin: 0;}
-ul, ol {margin: 0;}
+ul, ol {
+    padding: 0;
+}
 p {
 	margin: 0;
 	text-align: justify;
@@ -387,6 +389,19 @@ nav a:focus {
     width: 50%;
     line-height: 1.8em;
 }
+
+.service-top-agile ul{
+    color:#716E6E;
+    margin: 10px auto;
+    width: 50%;
+    text-align: left;
+
+}
+
+.service-top-agile li{
+    margin: 5px auto;
+}
+
 .ser-icon span {
     display: inline-block;
     width: 65px;
