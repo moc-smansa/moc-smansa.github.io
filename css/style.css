@@ -1646,6 +1646,12 @@ ul.res li a:hover {
     width: 75%;
     font-size: 1.7em;
 }
+
+.banner-main h4 {
+    width: 75%;
+    font-size: 1.7em;
+}
+
 .team-img ul.team-mem li {
     margin-right: 0.3em;
 }
