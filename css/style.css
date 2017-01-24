@@ -402,7 +402,7 @@ nav a:focus {
 .service-bottom-agile ul{
     color:#716E6E;
     font-size: 1.1em;
-    margin: 30px auto;
+    margin: 10px auto;
     width: 50%;
     text-align: left;
 
@@ -412,7 +412,9 @@ nav a:focus {
     margin: 5px auto;
 }
 
-
+.service-top-agile .btn{
+    align-items: center;
+}
 .ser-icon span {
     display: inline-block;
     width: 65px;
@@ -1720,14 +1722,11 @@ span.menu {
 .team-gris {
     float: none;
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     padding: 50px 0px 0px 10px;
 }
 .team-member {
     min-height: 245px;
-    max-width: 50px
-
 }
 .img-top {
     float: left;
@@ -2085,10 +2084,7 @@ span.menu img {
     font-size: 0.7em;
 }
 .team-img img {
-    display: block;
-    max-width:80%;
-    width: auto;
-    height: auto;
+    border: 5px solid #D0CFCF;
 }
 .team-text h4 {
     font-size: 0.85em;
